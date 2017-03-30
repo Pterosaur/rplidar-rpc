@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/liblidar_interface.a  CMakeFiles/lidar_interface.dir/imp/rplidar_a1m1.cpp.o CMakeFiles/lidar_interface.dir/src/lidar.cpp.o CMakeFiles/lidar_interface.dir/home/ganze/rplidar-rpc/pb/lidar.pb.cc.o CMakeFiles/lidar_interface.dir/home/ganze/rplidar-rpc/pb/lidar.grpc.pb.cc.o
+/usr/bin/ranlib ../lib/liblidar_interface.a

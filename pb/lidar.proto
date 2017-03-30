@@ -1,0 +1,29 @@
+
+syntax  =   "proto3";
+package device;
+import "google/protobuf/empty.proto";
+
+message lidar_raw_point{
+    float   angle       =   1;
+    float   distance    =   2;
+    uint32  quality     =   3;
+}
+
+message lidar_raw_points{
+    repeated    lidar_raw_point points  =   1;
+}
+
+message connect_info {
+    string path = 1;
+}
+
+message token {
+    string key = 1;
+}
+
+service lidar_server {
+    rpc create(connect_info) returns (token) {}
+    rpc start(token) returns(google.protobuf.Empty) {}
+    rpc stop(token) returns(google.protobuf.Empty) {}
+    rpc get_points(token) returns(lidar_raw_points) {}
+}

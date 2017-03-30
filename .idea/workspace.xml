@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="PASSWORD" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="rplidar_rpc" targetName="rplidar_rpc" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4ccbf0f-2731-4bf5-94f1-05e688d30328" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CompilerIdC/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/feature_tests.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/imp/rplidar_a1m1.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/main.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/src/lidar.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/include" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/rplidar-rpc.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/.idea/lidar.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/CMakeLists.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeCache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CMakeSystem.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/CMakeOutput.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/Makefile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/Makefile2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/TargetDirectories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/cmake.check_cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/feature_tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/feature_tests.cxx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/CXX.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/lidar_interface.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/build/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/imp/rplidar_a1m1.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/imp/rplidar_a1m1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/script/00-ttyUSB0-udev.rules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/src/lidar.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/cross_compile.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/include/rplidar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/include/rplidar_cmd.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/include/rplidar_driver.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/include/rplidar_protocol.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/include/rptypes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/mak_common.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/mak_def.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/linux/arch_linux.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/linux/net_serial.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/linux/net_serial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/linux/thread.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/linux/timer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/linux/timer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/macOS/arch_macOS.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/macOS/net_serial.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/macOS/net_serial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/macOS/thread.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/macOS/timer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/macOS/timer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/win32/arch_win32.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/win32/net_serial.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/win32/net_serial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/win32/timer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/win32/timer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/arch/win32/winthread.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/hal/abs_rxtx.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/hal/event.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/hal/locker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/hal/thread.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/hal/thread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/hal/util.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/rplidar_driver.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/rplidar_driver_serial.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/src/sdkcommon.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/cpptoml/cpptoml.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/cxxopts/cxxopts.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/google-protobuf-ext/DelimitedOperator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/async_logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/async_log_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/async_logger_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/file_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/log_msg.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/logger_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/mpmc_bounded_q.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/null_mutex.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/os.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/pattern_formatter_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/registry.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/details/spdlog_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/bundled/format.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/bundled/format.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/bundled/ostream.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/bundled/ostream.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/bundled/printf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/fmt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/fmt/ostr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/formatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/android_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/ansicolor_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/base_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/dist_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/file_sinks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/msvc_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/null_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/ostream_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/stdout_sinks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/syslog_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/sinks/wincolor_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/spdlog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/3rd/spdlog/tweakme.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/device/lidar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/lidar_server_imp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pb/lidar.grpc.pb.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pb/lidar.grpc.pb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pb/lidar.pb.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pb/lidar.pb.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pb/lidar.proto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pb/make.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lidar_server_imp.cpp" />
+    </list>
+    <ignored path="rplidar-rpc.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="rplidar-rpc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="lidar.proto" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pb/lidar.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lidar_server_imp.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/lidar_server_imp.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+              <folding>
+                <element signature="e#118#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lidar_server_imp.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lidar_server_imp.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pb/make.sh" />
+        <option value="$PROJECT_DIR$/pb/lidar.proto" />
+        <option value="$PROJECT_DIR$/device/lidar/main.cpp" />
+        <option value="$PROJECT_DIR$/include/device/lidar.h" />
+        <option value="$PROJECT_DIR$/device/lidar/imp/rplidar_a1m1.h" />
+        <option value="$PROJECT_DIR$/device/lidar/src/lidar.cpp" />
+        <option value="$PROJECT_DIR$/device/lidar/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/device/lidar/imp/rplidar_a1m1.cpp" />
+        <option value="$PROJECT_DIR$/src/lidar_server_imp.cpp" />
+        <option value="$PROJECT_DIR$/include/lidar_server_imp.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1429" />
+    <option name="y" value="24" />
+    <option name="width" value="1857" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="device" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lidar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rplidar-rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="device" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lidar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/include/device" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/pb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rplidar_rpc" TARGET_NAME="rplidar_rpc" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rplidar_rpc" TARGET_NAME="rplidar_rpc" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="rplidar-rpc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="rplidar_rpc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rplidar_rpc" TARGET_NAME="rplidar_rpc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rplidar_rpc" RUN_TARGET_NAME="rplidar_rpc">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rplidar_rpc" TARGET_NAME="rplidar_rpc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rplidar_rpc" RUN_TARGET_NAME="rplidar_rpc">
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.rplidar_rpc" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Build All" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4ccbf0f-2731-4bf5-94f1-05e688d30328" name="Default" comment="" />
+      <created>1490537604108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490537604108</updated>
+      <workItem from="1490537606161" duration="39288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39288000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1429" y="24" width="1857" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37565038" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pb/make.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/3rd/spdlog/fmt/fmt.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/include/lidar_server_imp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/src/lidar.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_function.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_set.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+          <folding>
+            <element signature="e#3412#3509#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pb/lidar.grpc.pb.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/thrid/RPLidarA1M1/include/rplidar_driver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/pthread.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/pthreadtypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="127" column="2" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/mutex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="152" column="35" selection-start-line="152" selection-start-column="35" selection-end-line="152" selection-end-column="35" />
+          <folding>
+            <element signature="e#1958#2201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/gthr-default.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/atomic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="672" column="16" selection-start-line="672" selection-start-column="16" selection-end-line="672" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_pair.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/shared_ptr.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="631" column="4" selection-start-line="631" selection-start-column="4" selection-end-line="631" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/imp/rplidar_a1m1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-554">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device/lidar/imp/rplidar_a1m1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#97#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/device/lidar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#85#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pb/lidar.pb.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="147" column="6" selection-start-line="147" selection-start-column="6" selection-end-line="147" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lidar_server_imp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/lidar_server_imp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding>
+            <element signature="e#118#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pb/lidar.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

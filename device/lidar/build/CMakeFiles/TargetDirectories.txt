@@ -1,0 +1,4 @@
+/home/ganze/rplidar-rpc/device/lidar/build/CMakeFiles/edit_cache.dir
+/home/ganze/rplidar-rpc/device/lidar/build/CMakeFiles/rebuild_cache.dir
+/home/ganze/rplidar-rpc/device/lidar/build/CMakeFiles/lidar.dir
+/home/ganze/rplidar-rpc/device/lidar/build/CMakeFiles/lidar_interface.dir

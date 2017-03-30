@@ -1,0 +1,3 @@
+/home/ganze/rplidar-rpc/build/CMakeFiles/edit_cache.dir
+/home/ganze/rplidar-rpc/build/CMakeFiles/rebuild_cache.dir
+/home/ganze/rplidar-rpc/build/CMakeFiles/rplidar_rpc.dir
