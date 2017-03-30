@@ -41,5 +41,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/lidar_client.dir/DependInfo.cmake"
   "CMakeFiles/rplidar_rpc.dir/DependInfo.cmake"
   )

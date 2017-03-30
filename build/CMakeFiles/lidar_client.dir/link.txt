@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblidar_client.a  CMakeFiles/lidar_client.dir/pb/lidar.pb.cc.o CMakeFiles/lidar_client.dir/pb/lidar.grpc.pb.cc.o CMakeFiles/lidar_client.dir/src/lidar_client_imp.cpp.o
+/usr/bin/ranlib liblidar_client.a

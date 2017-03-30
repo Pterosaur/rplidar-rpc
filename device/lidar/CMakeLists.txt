@@ -50,6 +50,8 @@ set(SOURCE_FILES
         main.cpp
         ${PUBLIC_FILES})
 add_executable(lidar ${SOURCE_FILES})
+
+
 #target_link_libraries(lidar
 #        libprotobuf.a)
 

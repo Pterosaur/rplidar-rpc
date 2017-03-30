@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/ganze/rplidar-rpc/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named lidar_client
+
+# Build rule for target.
+lidar_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lidar_client
+.PHONY : lidar_client
+
+# fast build rule for target.
+lidar_client/fast:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/build
+.PHONY : lidar_client/fast
 
 #=============================================================================
 # Target rules for targets named rplidar_rpc
@@ -210,6 +223,7 @@ pb/lidar.grpc.pb.o: pb/lidar.grpc.pb.cc.o
 
 # target to build an object file
 pb/lidar.grpc.pb.cc.o:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/pb/lidar.grpc.pb.cc.o
 	$(MAKE) -f CMakeFiles/rplidar_rpc.dir/build.make CMakeFiles/rplidar_rpc.dir/pb/lidar.grpc.pb.cc.o
 .PHONY : pb/lidar.grpc.pb.cc.o
 
@@ -219,6 +233,7 @@ pb/lidar.grpc.pb.i: pb/lidar.grpc.pb.cc.i
 
 # target to preprocess a source file
 pb/lidar.grpc.pb.cc.i:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/pb/lidar.grpc.pb.cc.i
 	$(MAKE) -f CMakeFiles/rplidar_rpc.dir/build.make CMakeFiles/rplidar_rpc.dir/pb/lidar.grpc.pb.cc.i
 .PHONY : pb/lidar.grpc.pb.cc.i
 
@@ -228,6 +243,7 @@ pb/lidar.grpc.pb.s: pb/lidar.grpc.pb.cc.s
 
 # target to generate assembly for a file
 pb/lidar.grpc.pb.cc.s:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/pb/lidar.grpc.pb.cc.s
 	$(MAKE) -f CMakeFiles/rplidar_rpc.dir/build.make CMakeFiles/rplidar_rpc.dir/pb/lidar.grpc.pb.cc.s
 .PHONY : pb/lidar.grpc.pb.cc.s
 
@@ -237,6 +253,7 @@ pb/lidar.pb.o: pb/lidar.pb.cc.o
 
 # target to build an object file
 pb/lidar.pb.cc.o:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/pb/lidar.pb.cc.o
 	$(MAKE) -f CMakeFiles/rplidar_rpc.dir/build.make CMakeFiles/rplidar_rpc.dir/pb/lidar.pb.cc.o
 .PHONY : pb/lidar.pb.cc.o
 
@@ -246,6 +263,7 @@ pb/lidar.pb.i: pb/lidar.pb.cc.i
 
 # target to preprocess a source file
 pb/lidar.pb.cc.i:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/pb/lidar.pb.cc.i
 	$(MAKE) -f CMakeFiles/rplidar_rpc.dir/build.make CMakeFiles/rplidar_rpc.dir/pb/lidar.pb.cc.i
 .PHONY : pb/lidar.pb.cc.i
 
@@ -255,8 +273,36 @@ pb/lidar.pb.s: pb/lidar.pb.cc.s
 
 # target to generate assembly for a file
 pb/lidar.pb.cc.s:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/pb/lidar.pb.cc.s
 	$(MAKE) -f CMakeFiles/rplidar_rpc.dir/build.make CMakeFiles/rplidar_rpc.dir/pb/lidar.pb.cc.s
 .PHONY : pb/lidar.pb.cc.s
+
+src/lidar_client_imp.o: src/lidar_client_imp.cpp.o
+
+.PHONY : src/lidar_client_imp.o
+
+# target to build an object file
+src/lidar_client_imp.cpp.o:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/src/lidar_client_imp.cpp.o
+.PHONY : src/lidar_client_imp.cpp.o
+
+src/lidar_client_imp.i: src/lidar_client_imp.cpp.i
+
+.PHONY : src/lidar_client_imp.i
+
+# target to preprocess a source file
+src/lidar_client_imp.cpp.i:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/src/lidar_client_imp.cpp.i
+.PHONY : src/lidar_client_imp.cpp.i
+
+src/lidar_client_imp.s: src/lidar_client_imp.cpp.s
+
+.PHONY : src/lidar_client_imp.s
+
+# target to generate assembly for a file
+src/lidar_client_imp.cpp.s:
+	$(MAKE) -f CMakeFiles/lidar_client.dir/build.make CMakeFiles/lidar_client.dir/src/lidar_client_imp.cpp.s
+.PHONY : src/lidar_client_imp.cpp.s
 
 src/lidar_server_imp.o: src/lidar_server_imp.cpp.o
 
@@ -291,8 +337,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... lidar_client"
 	@echo "... rplidar_rpc"
 	@echo "... device/lidar/imp/rplidar_a1m1.o"
 	@echo "... device/lidar/imp/rplidar_a1m1.i"
@@ -309,6 +356,9 @@ help:
 	@echo "... pb/lidar.pb.o"
 	@echo "... pb/lidar.pb.i"
 	@echo "... pb/lidar.pb.s"
+	@echo "... src/lidar_client_imp.o"
+	@echo "... src/lidar_client_imp.i"
+	@echo "... src/lidar_client_imp.s"
 	@echo "... src/lidar_server_imp.o"
 	@echo "... src/lidar_server_imp.i"
 	@echo "... src/lidar_server_imp.s"

@@ -24,11 +24,18 @@ include_directories(
 link_directories(${LIBRARY_DIRS})
 aux_source_directory(pb/ PROTOBUF_FILE)
 
-set(SOURCE_FILES
+set(SERVER_SOURCE_FILES
         main.cpp
         device/lidar/imp/rplidar_a1m1.cpp
         device/lidar/src/lidar.cpp
         ${PROTOBUF_FILE}
         src/lidar_server_imp.cpp
         )
-add_executable(rplidar_rpc ${SOURCE_FILES})
+add_executable(rplidar_rpc ${SERVER_SOURCE_FILES})
+
+set(CLIENT_SOURCE_FILES
+        ${PROTOBUF_FILE}
+        src/lidar_client_imp.cpp
+        include/lidar_client_imp.h)
+
+add_library(lidar_client STATIC ${CLIENT_SOURCE_FILES})

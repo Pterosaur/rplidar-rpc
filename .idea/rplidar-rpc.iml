@@ -7,7 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/device/lidar/imp/rplidar_a1m1.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lidar_client_imp.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/lidar_server_imp.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/include/lidar_client_imp.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pb/lidar.pb.cc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pb/lidar.grpc.pb.cc" isTestSource="false" />
     </content>
